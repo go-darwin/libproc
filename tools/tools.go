@@ -8,5 +8,8 @@ package tools
 
 import (
 	_ "github.com/klauspost/asmfmt/cmd/asmfmt"
-	_ "go-darwin.dev/tools/cmd/asmvet"
+	_ "gotest.tools/gotestsum"
+	_ "mvdan.cc/gofumpt"
+
+	_ "github.com/go-darwin/tools/cmd/asmvet"
 )

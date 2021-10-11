@@ -12,7 +12,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"go-darwin.dev/sys"
+	"github.com/go-darwin/sys"
 )
 
 // ProcListallpids retursn the list all pids.
